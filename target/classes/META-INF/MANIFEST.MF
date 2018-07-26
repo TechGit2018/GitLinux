@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1532238364763
+Build-Jdk: 10.0.1
+Built-By: root
+Bundle-Activator: project1.Activator
+Bundle-Description: project1 OSGi bundle project.
+Bundle-ManifestVersion: 2
+Bundle-Name: project1 Bundle
+Bundle-SymbolicName: project1
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: project1;version="1.0.0.SNAPSHOT";uses:="org.osgi.framew
+ ork"
+Import-Package: org.osgi.framework;version="[1.8,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.5.0.201709291849
